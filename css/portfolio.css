@@ -1,0 +1,24 @@
+/* Filterable Portfolio Stylesheet */
+
+/* Custom Classes
+------------------------------------------------------------ */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+* html .group { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+/* Filter */
+dl { margin-bottom: 3em; color: #777; }
+dt, dd { float: left; }
+dt { margin-right: 5px; }
+.filter li { float: left; }
+.filter a { font-size:30px; line-height:1.2em; color:#0c1526; font-weight:400; margin:0; font-family: 'arial narrow','Raleway', arial, serif; text-decoration: none; }
+.filter a:hover, .current a { color: #013c7f; text-decoration: underline;}
+
+/* Portfolio Items */
+.portfolio li { float: left; margin-right: 20px; margin-bottom: 2em; border: 1px solid #ccc; -moz-box-shadow: 0 5px 5px -3px #222; -webkit-box-shadow: 0 5px 5px -3px #222; box-shadow: 0 5px 5px -3px #222; }
+.portfolio li:nth-child(3n) { margin-right: 0; }
+.portfolio a { display: block; border: 3px solid #fff;  text-decoration: none; }
+.portfolio img { width: 290px; height: 190px; display: block; border: 1px solid #ccc; }
+
+/* Portfolio Title */
+span.image-title { float:right; font-size:1.2em; margin:5px; color:#013c7f; display:block;}

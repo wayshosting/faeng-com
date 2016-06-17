@@ -1,0 +1,9 @@
+#easyTooltip {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	background:#f0f0f0;
+	color:#071429;
+	font-size:12px;
+	text-transform:none;
+	z-index:999;
+}
